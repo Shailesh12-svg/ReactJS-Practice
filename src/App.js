@@ -2,6 +2,7 @@ import React from 'react'
 import HandleClick from './components/class1';
 import Counter from './components/counter';
 import Children from './components/Children';
+import DefaultPro from './components/DefaultPro';
 function App() {
 
   return (
@@ -12,6 +13,8 @@ function App() {
     <Children>
     <p>Description about children</p>
     </Children>
+
+    <DefaultPro/>
     </div>
   );
 }
