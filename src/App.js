@@ -4,6 +4,7 @@ import Counter from './components/counter';
 import Children from './components/Children';
 import DefaultPro from './components/DefaultPro';
 import HandleInput from './components/HandleInput';
+import Datafetching from './components/Datafetching';
 function App() {
 
   return (
@@ -16,7 +17,7 @@ function App() {
     </Children>
     <HandleInput/>
     <DefaultPro/>
-   
+   <Datafetching/>
     </div>
   );
 }
