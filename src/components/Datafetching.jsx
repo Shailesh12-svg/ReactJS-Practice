@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import axios from 'axios'
-import { ThemeContext, Themes } from './Themes';
+import { ThemeContext} from './Themes';
 const Datafetching = () => {
 
     const [data,setData]= useState(null);
