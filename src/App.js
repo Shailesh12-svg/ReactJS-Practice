@@ -4,9 +4,10 @@ import React from 'react'
 // import Children from './components/Children';
 // import DefaultPro from './components/DefaultPro';
 // import HandleInput from './components/HandleInput';
-import Datafetching from './components/Datafetching';
-import { Themes } from './components/Themes';
-import CounterReducer from './components/CounterReducer';
+// import Datafetching from './components/Datafetching';
+// import { Themes } from './components/Themes';
+import Counter1Callback from './components/Counter1Callback';
+// import CounterReducer from './components/CounterReducer';
 
 function App() {
 
@@ -21,11 +22,12 @@ function App() {
     </Children>
     <HandleInput/>
     <DefaultPro/> */}
-    <CounterReducer/>
-     <Themes>
+    {/* <CounterReducer/> */}
+
+     {/* <Themes>
      <Datafetching/>
-     </Themes>
-  
+     </Themes> */}
+    <Counter1Callback/>
     </div>
   );
 }
