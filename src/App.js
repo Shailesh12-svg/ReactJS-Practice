@@ -6,7 +6,8 @@ import React from 'react'
 // import HandleInput from './components/HandleInput';
 // import Datafetching from './components/Datafetching';
 // import { Themes } from './components/Themes';
-import Counter1Callback from './components/Counter1Callback';
+// import Counter1Callback from './components/Counter1Callback';
+import Memo from './components/Memo';
 // import CounterReducer from './components/CounterReducer';
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
      {/* <Themes>
      <Datafetching/>
      </Themes> */}
-    <Counter1Callback/>
+    {/* <Counter1Callback/> */}
+    <Memo/>
     </div>
   );
 }
